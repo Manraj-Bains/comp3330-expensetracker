@@ -29,7 +29,7 @@ export default function ExpenseDetailPage({ id }: { id: number }) {
       <div className="rounded border bg-background text-foreground p-6">
         <h2 className="text-xl font-semibold">{item.title}</h2>
         <p className="mt-2 text-sm text-muted-foreground">Amount</p>
-        <p className="text-lg tabular-nums">#{item.amount}</p>
+        <p className="text-lg tabular-nums">${item.amount}</p>
       </div>
     </section>
   )
