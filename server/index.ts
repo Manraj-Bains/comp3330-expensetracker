@@ -1,4 +1,5 @@
-// server/index.ts
+import dotenv from 'dotenv'
+dotenv.config({ path: new URL('./.env', import.meta.url) })
 import { app } from './app'
 
 // Prefer PORT from env; default 3000

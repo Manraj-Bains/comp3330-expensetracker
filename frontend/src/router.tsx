@@ -3,7 +3,7 @@ import ExpensesListPage from './routes/expenses.list'
 import ExpenseDetailPage from './routes/expenses.detail'
 import ExpensesNewPage from './routes/expenses.new'
 
-import { createRootRoute, createRoute, createRouter, RouterProvider } from '@tanstack/react-router'
+import { createRootRoute, createRoute, createRouter } from '@tanstack/react-router'
 import App from './App'
 
 // root layout
